@@ -1,5 +1,6 @@
 import { Outlet } from "react-router";
 import { Card, CardBody, CardTitle, CardText, Button } from "reactstrap";
+import Fotogalerie from "../components/Fotogalerie";
 import Gallery from "../components/Gallery";
 import Modaling from "../components/Modaling";
 
@@ -41,6 +42,7 @@ const Home = () => {
       <div className="fotky"></div>
 
       <Modaling />
+      <Fotogalerie />
     </div>
   );
 };
