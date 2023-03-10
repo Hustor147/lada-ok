@@ -1,0 +1,19 @@
+.systems {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.pokus {
+  margin: 20px auto;
+}
+.systemy {
+  background-color: rgb(41, 23, 112);
+  justify-content: center;
+  width: 200px;
+}
+.systems.pokus.btn {
+  border: 10px solid red;
+}
+#lada {
+  background-color: rgb(41, 23, 112);
+}

@@ -1,0 +1,47 @@
+.nadpisHlavicky {
+  text-align: center;
+}
+.cara {
+  border: 3px solid red;
+
+  margin-left: 260px;
+  margin-right: 30px;
+}
+.fialova {
+  color: rgb(41, 23, 112);
+}
+p {
+  color: rgb(43, 122, 192);
+  margin: 20px;
+  text-align: justify;
+}
+.logo {
+  float: left;
+}
+
+.nav {
+  /*margin-left: 20px;*/
+  justify-content: center;
+}
+.nav .btn {
+  color: white;
+  background-color: rgb(41, 23, 112);
+  margin: 10px;
+  width: 140px;
+}
+.nav .btn:link {
+  background-color: rgb(43, 141, 226);
+}
+.nav .btn:hover {
+  transition-delay: 0.5s;
+  transform: scale(1.1, 1.1);
+}
+
+.obrazek {
+  margin: 20px;
+}
+.slide {
+  margin: 10px auto;
+
+  width: 800px;
+}
