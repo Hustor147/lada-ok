@@ -8,7 +8,7 @@ const Header = () => {
     <>
       <img
         className="logo"
-        src="./images/Logo.png"
+        src="./images/jarmLogo.png"
         width={250}
         height={250}
       ></img>

@@ -3,7 +3,7 @@
     transform: scale(1);
   }
   50% {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
   100% {
     transform: scale(1);
@@ -11,6 +11,7 @@
 }
 
 .logo {
+  margin-left: 30px;
   animation: logo-anim 2s ease-in-out infinite;
 }
 

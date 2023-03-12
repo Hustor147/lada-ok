@@ -73,15 +73,17 @@ function Fotogalerie() {
         </div>
       </Slider>
       <Modal
-        className="ModalFoto"
+        size="lg"
+        style={{ maxWidth: "900px", width: "100%" }}
+        centered="true"
+        className="Modal"
         isOpen={isOpen}
         onRequestClose={closeModal}
         toggle={closeModal}
       >
-        <ModalHeader></ModalHeader>
-        <ModalBody>
-          <img src="./images/foto1.jpeg" width={500} height={500} />
-        </ModalBody>
+        {/* <ModalHeader></ModalHeader> */}
+
+        <img className="ModalFoto" src="./images/foto1.jpeg" />
       </Modal>
       {/* <div>
         <button disabled={sliderIndex <= 0} onClick={handlePrevClick}>

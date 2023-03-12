@@ -15,6 +15,14 @@
   filter: grayscale(0%);
   opacity: 1;
 }
+.closeButton {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.modalNadpisStred {
+  text-align: center;
+}
 
 .systemy {
   background-color: rgb(41, 23, 112);
