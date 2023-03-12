@@ -23,11 +23,11 @@ function Modaling() {
     setIsOpen2(false);
   };
   const openModal3 = () => {
-    setIsOpen2(true);
+    setIsOpen3(true);
   };
 
   const closeModal3 = () => {
-    setIsOpen2(false);
+    setIsOpen3(false);
   };
 
   return (
@@ -91,7 +91,11 @@ function Modaling() {
           <br></br>
           Satelitní systém
         </Button>
-        <Modal isOpen={isOpen2} onRequestClose={closeModal2}>
+        <Modal
+          isOpen={isOpen2}
+          onRequestClose={closeModal2}
+          toggle={closeModal2}
+        >
           <h2>Satelitní systém</h2>
           <p>
             orem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce dui
@@ -133,7 +137,11 @@ function Modaling() {
           <br></br>
           Kamerový system
         </Button>
-        <Modal isOpen={isOpen3} onRequestClose={closeModal2}>
+        <Modal
+          isOpen={isOpen3}
+          onRequestClose={closeModal3}
+          toggle={closeModal3}
+        >
           <h2>Kamerový systém</h2>
           <p>
             orem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce dui

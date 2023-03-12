@@ -3,7 +3,8 @@
   position: relative;
   width: 800px;
   margin: 2px auto;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
+  /* border: 2px solid blue; */
 
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -16,8 +17,25 @@
   touch-action: pan-y;
   -webkit-tap-highlight-color: transparent;
 }
-img {
-  margin: 2px auto;
+.slickThumbnails {
+  overflow: hidden;
+}
+.slickThumbnails img {
+  /* border: 2px solid orange; */
+
+  overflow: hidden;
+  max-width: 190px;
+  max-height: 190px;
+}
+.slickThumbnails img#foto {
+  margin: 0 auto;
+}
+
+.slickThumbnails:hover img {
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  transform: scale(1.4);
+  cursor: pointer;
 }
 button {
   color: chartreuse;
