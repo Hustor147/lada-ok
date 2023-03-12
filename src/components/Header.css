@@ -1,6 +1,23 @@
+@keyframes logo-anim {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.logo {
+  animation: logo-anim 2s ease-in-out infinite;
+}
+
 .nadpisHlavicky {
   text-align: center;
 }
+
 .cara {
   border: 3px solid red;
 
@@ -9,6 +26,18 @@
 }
 .fialova {
   color: rgb(41, 23, 112);
+}
+.fialovaBack {
+  color: white;
+  background-color: rgb(41, 23, 112);
+}
+.obsah {
+  font-size: 25px;
+  font-style: italic;
+}
+.nadpisH1 {
+  margin: 20px;
+  text-shadow: 3px 3px gray;
 }
 p {
   color: rgb(43, 122, 192);
@@ -25,6 +54,7 @@ p {
 }
 .nav .btn {
   color: white;
+  border-radius: 20px;
   background-color: rgb(41, 23, 112);
   margin: 10px;
   width: 140px;

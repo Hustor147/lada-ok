@@ -77,11 +77,10 @@ function Fotogalerie() {
         isOpen={isOpen}
         onRequestClose={closeModal}
         toggle={closeModal}
-        centered={false}
       >
         <ModalHeader></ModalHeader>
         <ModalBody>
-          <img src="./images/foto1.jpeg" />
+          <img src="./images/foto1.jpeg" width={500} height={500} />
         </ModalBody>
       </Modal>
       {/* <div>

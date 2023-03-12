@@ -9,20 +9,25 @@ const Header = () => {
       <img
         className="logo"
         src="./images/Logo.png"
-        width={200}
-        height={200}
+        width={250}
+        height={250}
       ></img>
 
       <div className="">
         <br></br>
-        <br></br>
+
         <div className="nadpisHlavicky">
-          <h1>
+          <hr className="cara"></hr>
+          <h1 className="nadpisH1">
             JARM-SAT<span className="fialova"> digital </span>TV / IP
           </h1>
           <hr className="cara"></hr>
-          <h3>Instalace = Servis = Modernizace</h3>
+          <h3 className="obsah">Instalace = Servis = Modernizace</h3>
           <h2>Anténní / Satelitní / Kamerový</h2>
+          <h2>
+            DVB <span className="fialovaBack">T2</span> / DVB{" "}
+            <span className="fialovaBack">S2</span> / IP AHD systém
+          </h2>
         </div>
       </div>
       <br></br>
