@@ -1,9 +1,15 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, Component } from "react";
 import Slider from "react-slick";
+import { render } from "react-dom";
 import { Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 import "./slick.css";
 import "./slick-theme.css";
 import "./Fotogalerie.css";
+// import axios from "axios";
+
+import ExportGallery from "./ExportGallery";
+
+const URL = "https://jsonplaceholder.typicode.com/photos";
 
 function Fotogalerie() {
   const [sliderIndex, setSliderIndex] = useState(0);
@@ -38,7 +44,8 @@ function Fotogalerie() {
 
   return (
     <>
-      <Slider
+      {/* Prvni verze galerie */}
+      {/* <Slider
         ref={sliderRef}
         slidesToShow={3}
         slidesToScroll={1}
@@ -71,8 +78,8 @@ function Fotogalerie() {
         <div id="slickThumbnails">
           <img src="./images/foto9.jpeg" width={200} height={200} />
         </div>
-      </Slider>
-      <Modal
+      </Slider> */}
+      {/* <Modal
         size="lg"
         style={{ maxWidth: "900px", width: "100%" }}
         centered="true"
@@ -81,18 +88,12 @@ function Fotogalerie() {
         onRequestClose={closeModal}
         toggle={closeModal}
       >
-        {/* <ModalHeader></ModalHeader> */}
-
-        <img className="ModalFoto" src="./images/foto1.jpeg" />
-      </Modal>
-      {/* <div>
-        <button disabled={sliderIndex <= 0} onClick={handlePrevClick}>
-          Prev
-        </button>
-        <button disabled={sliderIndex >= 12} onClick={handleNextClick}>
-          Next
-        </button>
-      </div> */}
+       <img className="ModalFoto" src="./images/foto1.jpeg" />
+      </Modal> */}
+      <h2 className="nasePrace">Naše práce</h2>
+      <div className="galerie">
+        <ExportGallery></ExportGallery>
+      </div>
     </>
   );
 }

@@ -2,20 +2,39 @@ import "./Header.css";
 import { UncontrolledCarousel } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
 import React from "react";
+import Logo from "./Logo";
+import { useEffect, useState } from "react";
 
 const Header = () => {
+  // const [isLoaded, setIsLoaded] = useState(false);
+
+  // const [isVisible, setIsVisible] = useState(true);
+  // useEffect(() => {
+  //   // po 3 sekundách skryjeme úvodní obrázek
+  //   setTimeout(() => {
+  //     setIsVisible(false);
+  //   }, 2000);
+  // }, []);
+
+  // const style = {
+  //   opacity: isVisible ? 1 : 0,
+  //   transition: "opacity 1s ease-out",
+  // };
+
   return (
     <>
+      {/* <div className="hero-image" style={style}></div> */}
+      {/* TADY JE LOGO */}
       <img
-        className="logo"
-        src="./images/jarmLogo.png"
-        width={250}
-        height={250}
+        className="logoStatic"
+        src="./images/lgo.gif"
+        width={300}
+        height={300}
       ></img>
-
+      {/* Mozna animovane logo <Logo/>*/}
       <div className="">
         <br></br>
-
+        {/* PRAVA STRANA OD LOGA */}
         <div className="nadpisHlavicky">
           <hr className="cara"></hr>
           <h1 className="nadpisH1">
@@ -31,7 +50,7 @@ const Header = () => {
         </div>
       </div>
       <br></br>
-      {/* stridajici se obrazky */}
+      {/* STRIDAJICI SE OBRAZKY */}
       <div className="slide">
         <UncontrolledCarousel
           items={[

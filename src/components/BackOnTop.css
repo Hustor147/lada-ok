@@ -1,0 +1,16 @@
+.topClass {
+  position: fixed;
+  right: 60px;
+  bottom: 60px;
+  border: 20x solid red;
+}
+.none {
+  visibility: hidden;
+}
+.topButton {
+  cursor: pointer;
+  transition-delay: 1.5s;
+  visibility: visible;
+  position: sticky;
+  bottom: 20px;
+}

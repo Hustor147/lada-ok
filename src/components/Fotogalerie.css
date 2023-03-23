@@ -1,4 +1,4 @@
-.modal {
+/* .modal {
   border: 2px solid red;
   position: absolute;
   top: 0;
@@ -9,9 +9,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
-.ModalFoto {
+/* .ModalFoto {
   border: 2px solid green;
   align-content: center;
+} */
+.row {
+  justify-content: center;
+}
+.nasePrace {
+  text-align: center;
 }

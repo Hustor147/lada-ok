@@ -1,13 +1,21 @@
 import "./Footer.css";
+import BackOnTop from "./BackOnTop";
+import { Button } from "reactstrap";
 
 const Footer = () => {
   return (
     <>
       <div className="bgfooter">
-        <h1>Zde je paticka</h1>
-        <p>
-          skjdfmkfskfsv sklv s;v sss;ldf sldf sld f akfjs fsl vs vsarfwkjfalkfr
-          vkaejlv alfv avb kal va vansamv
+        <a
+          href="https://www.facebook.com/profile.php?id=100064170751198"
+          target="_blank"
+          className="faceBook"
+        >
+          <img src="./images/facebook.jpeg" width={40} height={40} />
+        </a>
+
+        <p className="obsahPaticky">
+          Jarm-SAT© 2023 <br></br> LK147© 2023
         </p>
       </div>
     </>

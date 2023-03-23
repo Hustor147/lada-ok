@@ -53,7 +53,7 @@ function Modaling() {
           <CloseButton className="closeButton" onClickCapture={closeModal1} />
           <br />
           <h2 className="modalNadpisStred">Anténní systém</h2>
-          <p>
+          <p className="obsahModalu">
             Torem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce dui
             leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Ut enim ad
             minima veniam, quis nostrum exercitationem ullam corporis suscipit
@@ -84,8 +84,6 @@ function Modaling() {
             pellentesque, velit turpis volutpat ante, in pharetra metus odio a
             lectus.
           </p>
-
-          <img src="./images/Logo.png"></img>
         </Modal>
       </div>
       <div className="pokus">
@@ -102,7 +100,7 @@ function Modaling() {
           <CloseButton className="closeButton" onClickCapture={closeModal2} />
           <br />
           <h2 className="modalNadpisStred"> Satelitní systém</h2>
-          <p>
+          <p className="obsahModalu">
             orem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce dui
             leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Ut enim ad
             minima veniam, quis nostrum exercitationem ullam corporis suscipit
@@ -149,7 +147,7 @@ function Modaling() {
           <CloseButton className="closeButton" onClickCapture={closeModal3} />
           <br />
           <h2 className="modalNadpisStred">Kamerový systém</h2>
-          <p>
+          <p className="obsahModalu">
             orem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce dui
             leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Ut enim ad
             minima veniam, quis nostrum exercitationem ullam corporis suscipit

@@ -1,7 +1,9 @@
 const Poptavka = () => {
   return (
     <div>
-      <h1>Poptávka</h1>
+      <p className="obsahZalozek">
+        djnfjdfdfjndfjndfjndfjnfdjnfdjnfdnjdfnjfdnfdnfjd
+      </p>
     </div>
   );
 };

@@ -1,6 +1,22 @@
 .bgfooter {
-  margin-top: 50px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  height: 100px;
   color: aqua;
-  background-color: brown;
+  background-color: rgb(41, 23, 112);
   text-align: center;
+}
+.obsahPaticky {
+  text-align: left;
+  color: rgb(0, 0, 0);
+  margin-top: 30px;
+  float: left;
+}
+.faceBook {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  margin-right: 20px;
+  float: right;
 }

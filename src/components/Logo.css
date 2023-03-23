@@ -1,0 +1,30 @@
+.logo-container {
+  width: 75%;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  transition: all 1s ease-out;
+}
+
+.full-logo {
+  transform: translate(0, 0);
+}
+
+.logo:not(.full-logo) {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 20px;
+  left: 250px;
+  transition: all 0.5s ease-out;
+}

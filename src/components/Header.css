@@ -9,10 +9,22 @@
     transform: scale(1);
   }
 }
+/* .hero-image {
+  position: fixed;
+  top: 0;
+  left: 220px;
+  width: 1050px;
+  height: 800px;
+  background-image: url("/public/images/jarmLogo.png");
+  background-size: cover;
+  background-position: center;
+  /* z-index: 999; */
+/* } */
 
-.logo {
-  margin-left: 30px;
-  animation: logo-anim 2s ease-in-out infinite;
+.logoStatic {
+  margin-left: 15px;
+  float: left;
+  /* animation: logo-anim 2s ease-in-out infinite; SCALING LOGA */
 }
 
 .nadpisHlavicky {
@@ -20,10 +32,11 @@
 }
 
 .cara {
-  border: 3px solid red;
-
+  border-radius: 50%;
+  border: 3px solid rgb(41, 23, 112);
+  opacity: 1;
   margin-left: 260px;
-  margin-right: 30px;
+  margin-right: 40px;
 }
 .fialova {
   color: rgb(41, 23, 112);
@@ -38,15 +51,7 @@
 }
 .nadpisH1 {
   margin: 20px;
-  text-shadow: 3px 3px gray;
-}
-p {
-  color: rgb(43, 122, 192);
-  margin: 20px;
-  text-align: justify;
-}
-.logo {
-  float: left;
+  text-shadow: 2px 2px gray;
 }
 
 .nav {
@@ -54,25 +59,39 @@ p {
   justify-content: center;
 }
 .nav .btn {
+  transition: transform 0.5s;
   color: white;
   border-radius: 20px;
   background-color: rgb(41, 23, 112);
   margin: 10px;
   width: 140px;
 }
-.nav .btn:link {
-  background-color: rgb(43, 141, 226);
+.nav .btn:active {
+  color: white;
+  background-color: rgb(52, 52, 52);
 }
 .nav .btn:hover {
-  transition-delay: 0.5s;
+  /* transition: transform 0.5s; */
   transform: scale(1.1, 1.1);
 }
-
+a.btn.active {
+  color: rgb(41, 23, 112);
+  border: 2px solid rgb(41, 23, 112);
+  background-color: rgb(255, 255, 255);
+}
 .obrazek {
   margin: 20px;
 }
+/* UNCONTROLED CAROUSEL */
 .slide {
   margin: 10px auto;
 
-  width: 800px;
+  width: 900px;
+}
+/* Zde je stylizace pro body */
+.obsahZalozek {
+  color: rgb(0, 0, 0);
+  margin: 20px auto;
+  text-align: justify;
+  width: 900px;
 }

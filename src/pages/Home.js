@@ -4,8 +4,8 @@ import Modaling from "../components/Modaling";
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
-      <p>
+      {/* <h1>Home</h1> */}
+      <p className="obsahZalozek">
         Už více jak 20let se specializujeme na výstabì a správì televizních,
         satelitních a kamerových rozvodù v individuálních rodinných nebo ve
         spoleèných bytových domech s rozvojem nových technologií. Jsme servisní
@@ -38,6 +38,7 @@ const Home = () => {
       {/* tady je v planu pridat fotky ktere se zvetsi doprostred obrazovky */}
       <div className="fotky"></div>
 
+      {/* tri tlacitka Kamerový satelitní antenni */}
       <Modaling />
       <Fotogalerie />
     </div>

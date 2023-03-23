@@ -1,8 +1,7 @@
 const Nabizime = () => {
   return (
     <div>
-      <h1>Nabízíme</h1>
-      <p>
+      <p className="obsahZalozek">
         orem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce dui leo,
         imperdiet in, aliquam sit amet, feugiat eu, orci. Ut enim ad minima
         veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,

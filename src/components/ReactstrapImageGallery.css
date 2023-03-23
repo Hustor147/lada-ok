@@ -1,0 +1,6 @@
+.modal {
+  image-resolution: 700px, 700px;
+  /* overflow: hidden; */
+  /* --bs-modal-padding: 0rem; */
+  padding: 10px;
+}
